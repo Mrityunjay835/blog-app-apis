@@ -20,12 +20,13 @@ import com.project.blog.payloads.ApiResponse;
 import com.project.blog.payloads.CategoryDto;
 import com.project.blog.services.CategoryService;
 
+#Controller is provided by the spring framework
 @RestController
 @RequestMapping("/api/categories")
 public class CategoryController {
 	
 	@Autowired
-	private CategoryService categoryService;
+	private CategoryService categoryServices;
 	
 	//create
 	@PostMapping("/")
