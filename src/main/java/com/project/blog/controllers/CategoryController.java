@@ -26,7 +26,7 @@ import com.project.blog.services.CategoryService;
 public class CategoryController {
 	
 	@Autowired
-	private CategoryService categoryServices;
+	private CategoryService categoryService;
 	
 	//create
 	@PostMapping("/")
